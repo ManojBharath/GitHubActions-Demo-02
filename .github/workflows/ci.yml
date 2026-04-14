@@ -1,5 +1,4 @@
 name: Java Maven + Docker CI (Stage-wise with Artifacts)
-
 on:
   push:
     branches:
@@ -10,7 +9,6 @@ env:
   IMAGE_TAG: latest
 
 jobs:
-
   checkout:
     name: Checkout Stage
     runs-on: ubuntu-latest
